@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="library/bootstrap/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Buttons</title>
+	<style>
+		.carousel-inner{
+
+			box-shadow: 7px 5px 23px black;
+			border-radius:10px;
+
+		}
+		#h{
+			text-shadow: 3px 2px 8px black;
+		}
+	</style>
+</head>
+<body>
+	<div class="container mt-5">
+		<div class="carousel slide carousel-fade" data-interval="7000" data-ride="carousel" id="carousel">
+			<!-- indicators -->
+			<ul class="carousel-indicators">
+				<li data-target="#carousel" data-slide-to="0" class="active"></li>
+				<li data-target="#carousel" data-slide-to="1"></li>
+				<li data-target="#carousel" data-slide-to="2"></li>
+			</ul>
+			<div class="carousel-inner" >
+				<div class="carousel-item active">
+					<img src="images/carousel4.jpg" alt="" class="d-block w-100">
+					<div class="carousel-caption">
+						<h3 id="h">88⬆</h3>
+						<p id="h"> An American mass media company that founder Sean Miyashiro describes as a "hybrid management, record label, video production, and marketing company".</p>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<img src="images/carousel5.png" alt="" class="d-block w-100">
+					<div class="carousel-caption">
+						<h3>Joji</h3>
+						<p>Japanese singer-songwriter, record producer, author, and former Internet personality, YouTuber, and comedian.</p>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<img src="images/carousel7.jpg" alt="" class="d-block w-100">
+					<div class="carousel-caption">
+						<h3>Joji</h3>
+						<p>Joji's music has been described as trip hop and lo-fi that blends elements of trap, folk, electronic, and R&B."Nectar" is the latest album by Joji. His music explores themes of heartbreak and intimacy.</p>
+					</div>
+				</div>
+			</div>
+		
+		<a href="#carousel" class="carousel-control-prev" data-slide="prev">
+			<span class="carousel-control-prev-icon"></span>
+		</a>
+		<a href="#carousel" class="carousel-control-next" data-slide="next">
+			<span class="carousel-control-next-icon"></span>
+		</a>
+
+		</div>
+	</div>
+	
+
+	<script src="library/bootstrap/jquery-3.5.1.slim.min.js"></script>
+	<script src="library/bootstrap/popper.min.js"></script>
+	<script src="library/bootstrap/bootstrap.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>
+
+<!-- bootstrap.css
+jquery.js
+popper.js
+bootstrap.js -->

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="library/bootstrap/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Navbar</title>
+	<style>
+		.nevbar-brand{
+			border-radius: 5px;
+			width: 65px;
+			text-align: center;
+			color:white;
+			background-color: red;
+			font-weight: bolder;
+			font-size:1.4em;
+		}
+		.nevbar-brand:hover{
+			color:white;
+		}
+		.navbar-dark .navbar-nav .nav-link{
+			color:white;
+		}
+		/*.navbar-dark .navbar-nav .nav-link:hover{
+			font-size: 1.1em;
+			color:red;
+		}*/
+
+		.navbar{
+			color: orange;
+		}
+		.nav-link-dropdown-toggle{
+			color:red;
+		}
+		section{
+			height:900px;
+			background-color:rgb(0, 109, 183);
+		}
+		/*hover*/
+		.navbar .nav-item .dropdown-menu{ 
+			display: none; 
+		}
+		.navbar .nav-item:hover .nav-link{ 
+			color: #fff;  
+		}
+		.navbar .nav-item:hover .dropdown-menu{ 
+			display: block; 
+		}
+		.navbar .nav-item .dropdown-menu{ 
+			margin-top:0; 
+		}
+	
+
+
+
+
+	</style>
+</head>
+<body>
+	<nav class="navbar sticky-top navbar-dark bg-warning navbar-expand-md">
+
+		<button class="navbar-toggler ml-auto" data-toggle="collapse" data-target="#navMenu">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navMenu">
+			<a href="Nav.html" class="nevbar-brand">LEGO</a>
+
+		<ul class="navbar-nav">
+			<li class="nav-item">
+				<a href="Nav.html" class="nav-link active">Home</a>				
+			</li>
+
+			<li class="nav-item dropdown">
+				<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Shop</a>
+				<div class="dropdown-menu">
+					<a href="#" class="dropdown-item">New</a>
+					<a href="#" class="dropdown-item">Popular</a>
+					<a href="#" class="dropdown-item">Age</a>
+					<a href="#" class="dropdown-item">Price</a>
+					<a href="#" class="dropdown-item">Product Type</a>
+				</div>
+			</li>
+			<li class="nav-item">
+				<a href="#" class="nav-link">Contact</a>
+			</li>
+			<li class="nav-item">
+				<a href="#" class="nav-link">About</a>
+			</li>
+			<li class="nav-item">
+				<a href="#" class="nav-link">Help</a>
+			</li>
+			<!-- <li class="nav-item dropdown">
+				<a href="#" class="nav-link">Help</a>
+			</li> -->
+			<li class="nav-item dropdown">
+				<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Protfolio</a>
+				<div class="dropdown-menu">
+					<a href="#" class="dropdown-item">sub menu1</a>
+					<a href="#" class="dropdown-item">sub menu2</a>
+					<div class="dropdown-divider"></div>
+					<a href="#" class="dropdown-item">sub menu3</a>
+					<a href="#" class="dropdown-item">sub menu4</a>
+				</div>
+			</li>
+
+		</ul>
+	</div>
+	</nav>
+	<section>
+	   Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque alias doloribus perspiciatis quisquam temporibus eum quasi facilis iusto accusamus id velit incidunt sed, nam tempora dolorum minus nemo hic aut.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque alias doloribus perspiciatis quisquam temporibus eum quasi facilis iusto accusamus id velit incidunt sed, nam tempora dolorum minus nemo hic aut.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque alias doloribus perspiciatis quisquam temporibus eum quasi facilis iusto accusamus id velit incidunt sed, nam tempora dolorum minus nemo hic aut.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	</section>
+
+	<script src="library/bootstrap/jquery-3.5.1.slim.min.js"></script>
+	<script src="library/bootstrap/popper.min.js"></script>
+	<script src="library/bootstrap/bootstrap.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>
+

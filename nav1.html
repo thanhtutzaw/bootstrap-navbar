@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="library/bootstrap/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Nav1</title>
+	<style>
+		.tab-pane{
+			padding-left: 5px;
+			height: 300px;
+		}
+	</style>
+</head>
+<body>
+	<div class="container mt-5">
+		<div class="row">
+		    <div class="col-3">
+				<ul class="nav nav-pills flex-column"> <!-- use tabs and pills -->
+					<li class="nav-item">
+						<a href="#Home" class="nav-link" data-toggle="tab">Home</a> <!-- tab use -->
+					</li>
+					<li class="nav-item">
+						<a href="#Menu" class="nav-link" data-toggle="tab">Menu</a>
+					</li>
+					<li class="nav-item">
+						<a href="#Services" class="nav-link" data-toggle="tab">Services</a>
+					</li>
+					<li class="nav-item">
+						<a href="#Contact" class="nav-link" data-toggle="tab">Contact</a>
+					</li>
+				</ul>
+		    </div>
+
+			<div class="col-9">
+				<div class="tab-content"> <!-- tab start -->
+						<div class="tab-pane bg-info  active fade show" id="Home" role="tabpanel">
+							<h3>Home</h3>
+							Lorem ipsum, dolor sit, amet consectetur adipisicing elit. Suscipit ut odio autem non perferendis at nostrum consequuntur unde maxime natus, temporibus, harum dolore dolorum asperiores obcaecati sunt. Illo, quisquam, nulla!
+						</div>
+						<div class="tab-pane bg-warning fade" id="Menu" role="tabpanel">
+							<h3>Menu</h3>
+							Lorem ipsum, dolor sit, amet consectetur adipisicing elit. Suscipit ut odio autem non perferendis at nostrum consequuntur unde maxime natus, temporibus, harum dolore dolorum asperiores obcaecati sunt. Illo, quisquam, nulla!
+						</div>
+						<div class="tab-pane bg-danger fade" id="Services" role="tabpanel">
+							<h3>Services</h3>
+							Lorem ipsum, dolor sit, amet consectetur adipisicing elit. Suscipit ut odio autem non perferendis at nostrum consequuntur unde maxime natus, temporibus, harum dolore dolorum asperiores obcaecati sunt. Illo, quisquam, nulla!
+						</div>
+						<div class="tab-pane bg-success fade" id="Contact" role="tabpanel">
+							<h3>Contact</h3>
+							Lorem ipsum, dolor sit, amet consectetur adipisicing elit. Suscipit ut odio autem non perferendis at nostrum consequuntur unde maxime natus, temporibus, harum dolore dolorum asperiores obcaecati sunt. Illo, quisquam, nulla!
+						</div>
+				</div>
+			</div>
+		</div>
+
+		
+
+		
+	</div>
+
+
+	<script src="library/bootstrap/jquery-3.5.1.slim.min.js"></script>
+	<script src="library/bootstrap/popper.min.js"></script>
+	<script src="library/bootstrap/bootstrap.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>
